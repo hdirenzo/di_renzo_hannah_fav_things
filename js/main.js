@@ -47,6 +47,8 @@ function createMovieCard(movie) {
         .innerHTML = `<div class="movie-card">
     <h2 class="movie-card__title">${movie.name}</h2>
     <p>${movie.desc}</p>
+    <p>${movie.year}</p>
+    <p>${movie.rating}</p>
     <iframe width="560" height="315" src="${movie.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>`
 

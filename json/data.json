@@ -1,23 +1,26 @@
 {
     "Kuroneko": {
         "name": "Kuroneko",
-        "desc": "A haunting ghost story about loss, love, and revenge caused by the violence of men.",
+        "desc": "Kuroneko (black cat) is a Japanese horror film directed by Kaneto Shindo, distributed by the famous Japanese media distribution company. <br> The story takes place in feudal Japan during a civil war. The plot surrounds the vengeful spirits 'onryo', of a woman and her daugher-in-law. ",
         "year": "1968",
         "pic": "imgs/kuroneko.jpg",
+        "rating": "8.75/10 stars <br> For myself, this film captures a very important message through the use of horror and japanese folklore. As a culture that has always <br> praised its soliders and samurai, to see a film challanging the usual narrative is both interesting and inspiring to see the art of <br> cinema being used as social commentary. Furthermore, the director uses incredible techniques to capture this ghost story. The use <br> of lighting and framing techniques to create an atmosphere that is seeming stuck between reality and a ghost world is impressive,<br> especially with only black and white colour.",
         "video": "https://www.youtube.com/embed/5lVINflSaxc"
     },
     "Sleepaway Camp": {
         "name": "Sleepaway Camp",
-        "desc": "An 80's slasher film that follows a girl to summercamp as a string of murders unravel, with a shocking ending.",
+        "desc": "An 80's slasher film directed by Robert Hiltzik that follows a girl to summercamp as a string of murders unravel, with a shocking ending.",
         "year": "1983",
         "pic": "imgs/sleepaway_camp.jpg",
+        "rating": "8/10 stars <br> This film is really fun and entertaining, especially around Halloween. <br> This film captures the classic slasher film cliches while also doing something special. <br> This film really does capture the carelessness of summer for teenagers, yet also carries an eerie interpersonal twist. Definatly <br> a lighter, more fun horror film. There is a deeper message embedded in this film, however its arguably not the primary focus.",
         "video": "https://www.youtube.com/embed/vImv6yxkxJE"
     },
     "The Shining": {
         "name": "The Shining",
-        "desc": "A film that captures the spiraling madness and cabin fever of the Overlook Hotel caretaker.",
-        "year": "2015",
+        "desc": "A Stanley Kubrick film that captures the spiraling madness and cabin fever of the Overlook Hotel caretaker.",
+        "year": "1980",
         "pic": "imgs/the_shining.jpg",
+        "rating": "9/10 stars <br> This movie is plausibly one of the best horror/psycholigical trillers ever made and some of Kubricks best work. <br> The main reason I find this film so well done is Shelley Duval's acting. She basically acts by herself for most of the film. Acting alone without much help of <br> other actors or actresses is difficult. Not to mention, the emotional termoil Kubrick put her through while filming. For the directing <br> and stroy telling, Kubrick nails the slow  build up of Jack going insane. You really feel like no one is safe",
         "video": "https://www.youtube.com/embed/S014oGZiSdI"
     }
 }
