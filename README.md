@@ -1,5 +1,5 @@
 # di_renzo_hannah_fav_things
- Three of my Favourite Things - Horror Movie Addition
+ Three of my Favourite Things - Horror Movie Edition
  In the spirit of Halloween, this page displays three great horror movie options. 
 
  This project was created to display the use of JSON and Fetch API to retreive information and data to be displayed
