@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+
+}
+
+h1 {
+    color: orange;
+    font-size: 55px;
+    font-family: 'Metal Mania', cursive;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    color: orange;
+    font-size: 35px;
+    font-family: 'Metal Mania', cursive;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    
+}
+
+p {
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2.5px solid orange;
+    padding: 15px 35px;
+    border-radius: 15px;
+}
+
+section {
+    display: flex;
+    padding: 25px;
+}
+
+img {
+    width: 200px;
+    height: 320px;
+
+}

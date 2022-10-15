@@ -1,0 +1,167 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .team-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  color: orange;
+  font-size: 55px;
+  font-family: "Metal Mania", cursive;
+  font-family: "Nosifer", cursive;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+
+h2 {
+  color: orange;
+  font-size: 35px;
+  font-family: "Metal Mania", cursive;
+  font-family: "Nosifer", cursive;
+  text-align: center;
+}
+
+p {
+  color: orange;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 2.5px solid orange;
+  padding: 15px 35px;
+  border-radius: 15px;
+}
+
+section {
+  display: flex;
+  padding: 25px;
+}
+
+img {
+  width: 200px;
+  height: 320px;
+}
+
+/*# sourceMappingURL=main.css.map */
