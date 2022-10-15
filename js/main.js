@@ -11,18 +11,18 @@ function handleMovieClick(event) {
 
 
     fetch('json/data.json')
-        // Fetch finished (resolved), do this with the result
+        // Fetch finished (resolved)
         .then(function (data) {
             return data.json()
         })
 
         .then(function (movies) {
-            // Dynamically create some HTML content with the data 
+            // create some HTML content with the data 
             const movie = movies[movieTitle]
             const movieCardEl = createMovieCard(movie)
             console.log(movieCardEl)
         })
-
+        // dont forget the error 
         .catch(function (error) {
             alert('Error: ' + error.message)
         })
@@ -55,6 +55,8 @@ function createMovieCard(movie) {
     // document.body.appendChild(movieCard)//
 
     //     return movieCard
+
+    //pls switch moviessss
 }
 
 
