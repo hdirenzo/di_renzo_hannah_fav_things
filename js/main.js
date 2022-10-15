@@ -29,7 +29,7 @@ function handleMovieClick(event) {
 }
 
 /**
- * Creates a movie card and adds it
+ * 
  * 
  * @param {Object} movie
  * @returns {HTMLDivElement}
