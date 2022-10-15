@@ -4,20 +4,20 @@
         "desc": "A haunting ghost story about loss, love, and revenge caused by the violence of men.",
         "year": "1968",
         "pic": "imgs/kuroneko.jpg",
-        "video": "videos/vid_kuroneko.mp4"
+        "video": "https://www.youtube.com/embed/5lVINflSaxc"
     },
     "Sleepaway Camp": {
         "name": "Sleepaway Camp",
         "desc": "An 80's slasher film that follows a girl to summercamp as a string of murders unravel, with a shocking ending.",
         "year": "1983",
         "pic": "imgs/sleepaway_camp.jpg",
-        "video": "videos/vid_sleepawaycamp.mp4"
+        "video": "https://www.youtube.com/embed/vImv6yxkxJE"
     },
     "The Shining": {
         "name": "The Shining",
         "desc": "A film that captures the spiraling madness and cabin fever of the Overlook Hotel caretaker.",
         "year": "2015",
         "pic": "imgs/the_shining.jpg",
-        "video": "videos/vid_theshining.mp4"
+        "video": "https://www.youtube.com/embed/S014oGZiSdI"
     }
 }

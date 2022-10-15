@@ -35,14 +35,24 @@ function handleMovieClick(event) {
  * @returns {HTMLDivElement}
  */
 function createMovieCard(movie) {
-    const movieCard = document.createElement('div')
-    movieCard.innerHTML =
-        `<div class="movie-card">
-            <h2 class="movie-card__title">${movie.name}</h2>
-            <p>${movie.desc}</p>
-        </div>`
+    // const movieCard = document.createElement('div')
+    // movieCard.innerHTML =
+    //     `<div class="movie-card">
+    //         <h2 class="movie-card__title">${movie.name}</h2>
+    //         <p>${movie.desc}</p>
+    //         <iframe width="560" height="315" src="${movie.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    //     </div>`
 
-    document.body.appendChild(movieCard)
+    document.getElementById("movie_details")
+        .innerHTML = `<div class="movie-card">
+    <h2 class="movie-card__title">${movie.name}</h2>
+    <p>${movie.desc}</p>
+    <iframe width="560" height="315" src="${movie.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>`
 
-    return movieCard
+    // document.body.appendChild(movieCard)//
+
+    //     return movieCard
 }
+
+
