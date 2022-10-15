@@ -147,21 +147,46 @@ p {
 }
 
 button {
-  background-color: black;
-  color: white;
-  border: 2.5px solid orange;
-  padding: 15px 35px;
-  border-radius: 16px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  margin-left: 130px;
+  margin-right: 130px;
+  cursor: pointer;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #c8180b;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 5px rgb(74, 74, 74);
+}
+
+button:hover {
+  background-color: #8c1705;
+}
+
+button:active {
+  background-color: #330000;
+  box-shadow: 0 5px rgb(46, 46, 46);
+  transform: translateY(3px);
 }
 
 section {
   display: flex;
-  padding: 25px;
+  justify-content: center;
+  padding: 35px;
 }
 
 img {
   width: 200px;
   height: 320px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
